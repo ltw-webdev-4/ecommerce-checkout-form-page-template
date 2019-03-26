@@ -8,17 +8,26 @@ deliverables: 'Pattern library'
 
 ## Overview
 
-- *Continue work on your `ecommerce-pattern-library`*
-- Use your previously designed patterns to create the checkout form page for your eCommerce website.
-- Inside your `pages` folder make a new single HTML file—name it so that it matches your navigation. *And don’t forget to connect it into the navigation.*
-- **Use Patternbot’s include system to avoid rewriting or copying-and-pasting the pattern HTML.**
+- *Work only on your teammate’s `ecommerce-pattern-library` that you cloned to your computer*—**ensure you only make commits to the `checkout-form` branch.**
+- Use their designed patterns to create the page that collects all the information necessary for a person to finalize their online purchase: address, credit card, etc.
+- You should already have a wireframe and appropriate documentation to complete your task.
+- **You should only be working within the `checkout.html` file—it probably doesn’t exist yet so you’ll have to create it.**
 - *You should only write HTML and insert appropriate classes like `.grid` and type sizes.*
-- **Your checkout form page does not get its own CSS file.** If you cannot create the page without writing CSS, your patterns aren’t good enough. Go back to the patterns and add variations. Or make a brand new pattern.
-- Remember that Patternbot will automatically add all your CSS files to the top of the page. This is exactly why it’s super important that your patterns do not target HTML tags directly because at this point there **will** be collisions.
-- *Run your pattern library through Markbot and make sure it passes all the checks.*
+- **DO NOT make any adjustments to any other files in the pattern library—the only file you can touch is the `checkout.html` layout.** If something can’t be created you need to chat with your teammate to come up with a solution.
+- **The checkout form page does not get its own CSS file.** If you cannot create the page without writing CSS, talk to your teammate to better understand the patterns you’re supposed to use.
+
+---
+
+## Pattern library updates
+
+If you run into a situation where your teammate needs to update their pattern library [follow the steps in the “Updating from master” lesson](https://learn-the-web.algonquindesign.ca/courses/web-dev-4/updating-from-master/).
+
+**This shouldn’t happen though—because everybody has thought ahead and made ready everything necessary for the product details page. (\*wink \*wink)**
 
 ---
 
 ## Hand in
 
-Show teacher for marks during next class.
+During the next class you and your teammate will integrate the new page into their original code.
+
+Show the teacher the completed version after the integration.
